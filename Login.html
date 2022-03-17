@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<style>
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(216, 70, 70);
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    
+    div {
+        border-radius: 10px;
+        background-color: #15d4e2;
+        padding: 40px;
+        font-size: 20px;
+    }
+    
+    a:hover,
+    a:active {
+        background-color: rgb(29, 60, 233);
+    }
+    
+    a:link,
+    a:visited {
+        background-color: #4c09eb70;
+        color: rgb(240, 236, 236);
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .p {
+        border: 5px red;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .id {
+        border: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <h1 class="id">Friends Login Form</h1>
+
+    <div align="center">
+        <form>
+            <label for="fname"> Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name..">
+
+            <label for="lname"> Phone Number</label>
+            <input type="text" id="phone" name="Phone" placeholder="Enter Your Phone Number">    
+            <label for="lname"> Adress</label>
+            <input type="text" id="adress" name="Adress" placeholder="Enter Your Adress">
+
+            <label for="Blood">Blood group</label>
+            <select id="Blood" name="Blood Group">
+                <option >Select one</option>
+                <option value="A+">A+</option>
+                <option  value="A-">A-</option>
+                <option  value="O+">O+</option>
+            </select>
+        </form>
+        <a href="fahim.html" target="_blank">Submit</a>
+    </div>
+
+
+</body>
+
+</html>
